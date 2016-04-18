@@ -12,7 +12,7 @@ describe('CrewMember', function() {
     expect(katie.position).toBe('Gunner');
   });
 
-  it('should should return "Looking for a Rig" if they aren\'t assigned to a ship', function() {
+  it('should return "Looking for a Rig" if they aren\'t assigned to a ship', function() {
     expect(tristan.currentShip).toBe('Looking for a Rig');
   });
 
